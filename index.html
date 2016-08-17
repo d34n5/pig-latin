@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pig Latin Translator</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Pig Latin Translator</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="jumbotron">
+        <div class="row">
+          <h1>Pig Latin</h1>
+          <div class="col-md-6">
+            <form class="form-horizontal" id="sentence_field">
+              <fieldset id="formFields">
+                <div class="form-group">
+                  <input id="sentenceinput" type="text" placeholder="enter an english phrase" class="form-control input-md">
+                </div>
+              </fieldset>
+              <div class="form-group">
+                <button type="submit" class="submit_button btn btn-primary btn-lg" id="submit_button">Submit</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6" id="sentenceoutput">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

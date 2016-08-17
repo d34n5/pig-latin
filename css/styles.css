@@ -1,0 +1,14 @@
+body {
+  background-color: lavender;
+  min-height: 2000px;
+}
+
+img {
+  margin: 5%;
+  padding: 5%;
+  border: solid 1px #000;
+}
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
