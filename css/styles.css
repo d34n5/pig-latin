@@ -1,12 +1,17 @@
 body {
-  background-color: lavender;
-  min-height: 2000px;
+  background-image: url("http://i.imgur.com/PkHN4.png");
+  background-repeat: repeat;
+  background-size: 100vw;
 }
 
 img {
   margin: 5%;
   padding: 5%;
   border: solid 1px #000;
+}
+
+.kevin{
+   
 }
 
 .navbar-static-top {
